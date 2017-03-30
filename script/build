@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+cd "$(dirname "$0")/.."
+
+MIX_ENV=production mix escript.build
